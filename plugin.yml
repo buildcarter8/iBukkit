@@ -1,0 +1,7 @@
+name: iBukkit
+version: 1
+description: The new Util project
+author: buildcarter8
+main: me.buildcarter8.iBukkit.Main
+Commands:
+#No commands for this build
