@@ -26,14 +26,14 @@ public class Messages
   }
   //Easier sending a player a message 
 
-  public static void playerMsg(CommandSender sender, String message, Color gray)
+  public static void playerMsg(CommandSender sender, String message, ChatColor white)
      {
     //just type Messages.playerMsg(ChatColor.blah + blah)
-      sender.sendMessage(gray + message);
+      sender.sendMessage(white + message);
   }
   public static void playerMsg(CommandSender sender, String message)
   {
-      Messages.playerMsg(sender, message, Color.WHITE);
+      Messages.playerMsg(sender, message, ChatColor.WHITE);
   }
   
 
