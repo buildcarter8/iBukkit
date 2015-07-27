@@ -2,6 +2,12 @@ package me.buildcarter8.iBukkit;
 
 import java.util.logging.Logger;
 
+import me.buildcarter8.iBukkit.utils.Color;
+import me.buildcarter8.iBukkit.utils.Messages;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 //Recommended for: CraftBukkit 1.8.* Can be used for: Spigot 1.8.6
@@ -28,6 +34,17 @@ public class Main extends JavaPlugin
     @Override
     public void onEnable() {
     	log.info("iBukkit Features are now usable!");
-    	
     }
+    //TODO: Code it better
+    public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
+		 Player player = (Player) sender;
+		 if(cmd.getName().equalsIgnoreCase("ibukkit"))
+		 {
+		    Messages.playerMsg(player, "iBukkit -- Version " + iBukkitVersion + "." + buildNumber, Color.AQUA);
+		    Messages.playerMsg(player, "This plugin was made to support other plugins and make development simplier and easier", Color.AQUA);
+		 }
+		return true;
+		 
+    }
+		 
 }
