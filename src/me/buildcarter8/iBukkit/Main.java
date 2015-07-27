@@ -1,10 +1,9 @@
 package me.buildcarter8.iBukkit;
 
 import java.util.logging.Logger;
-
-import me.buildcarter8.iBukkit.utils.Color;
 import me.buildcarter8.iBukkit.utils.Messages;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -40,8 +39,8 @@ public class Main extends JavaPlugin
 		 Player player = (Player) sender;
 		 if(cmd.getName().equalsIgnoreCase("ibukkit"))
 		 {
-			 sender.sendMessage(Color.AQUA + "iBukkit -- Version " + iBukkitVersion + "." + buildNumber);
-			 sender.sendMessage(Color.AQUA + "iBukkit was designed to help the average developer and make it easier for him/her");
+			 sender.sendMessage(ChatColor.AQUA + "iBukkit -- Version " + iBukkitVersion + "." + buildNumber);
+			 sender.sendMessage(ChatColor.AQUA + "iBukkit was designed to help the average developer and make it easier for him/her");
 		 }
 		return true;
 		 
