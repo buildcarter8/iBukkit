@@ -2,8 +2,6 @@ package me.buildcarter8.iBukkit;
 
 import java.util.logging.Logger;
 
-
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 //Recommended for: CraftBukkit 1.8.* Can be used for: Spigot 1.8.6
