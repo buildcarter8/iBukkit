@@ -12,11 +12,11 @@ public class Messages
 	  Messages.bcMessage(message, null);
   }
   //Easier sending a player a message
-  public static void playerMsg(CommandSender sender, String message, ChatColor chatcolor)
+  public static void playerMsg(CommandSender sender, String message, Color color)
   {
 	  //just type Messages.playerMsg(ChatColor.blah + blah)
-      sender.sendMessage(chatcolor + message);
+      sender.sendMessage(color + message);
   }
   //Error messages
-  public static String error = ChatColor.RED + "[iBukkit] Oops! there seems to be an error with that please contact the developer";
+  public static String error = ChatColor.RED + "[iBukkit] Oops! there seems to be an error with that please contact the developer of the plugin with the command used";
 }
