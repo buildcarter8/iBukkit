@@ -1,9 +1,9 @@
 name: iBukkit
-version: 2
+version: 2.1
 description: The new Util project
 author: buildcarter8
 main: me.buildcarter8.iBukkit.Main
-Commands:
+commands:
  ibukkit:
     description: plugin info
     aliases: ib
