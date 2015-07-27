@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin
 {
 	public static final String iBukkitVersion = "2";
-	public static final String buildNumber = "1";
+	public static final String buildNumber = "3";
 	public static final String SpigotVersion = "1.8.6" + "1.8.7";
 	public static final String spigot = "Spigot-1.8.6+";
 	public static final String pluginfile = "plugin.yml";
