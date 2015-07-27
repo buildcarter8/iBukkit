@@ -40,8 +40,8 @@ public class Main extends JavaPlugin
 		 Player player = (Player) sender;
 		 if(cmd.getName().equalsIgnoreCase("ibukkit"))
 		 {
-		    Messages.playerMsg(player, "iBukkit -- Version " + iBukkitVersion + "." + buildNumber, Color.AQUA);
-		    Messages.playerMsg(player, "This plugin was made to support other plugins and make development simplier and easier", Color.AQUA);
+			 sender.sendMessage(Color.AQUA + "iBukkit -- Version " + iBukkitVersion + "." + buildNumber);
+			 sender.sendMessage(Color.AQUA + "iBukkit was designed to help the average developer and make it easier for him/her");
 		 }
 		return true;
 		 
