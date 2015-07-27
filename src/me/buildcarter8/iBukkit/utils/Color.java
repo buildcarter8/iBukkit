@@ -1,11 +1,13 @@
+/*
 package me.buildcarter8.iBukkit.utils;
 
 
 import java.util.HashMap;
 import java.util.Map;
+
 public enum Color
 {
-	 BLACK(0x0),
+	    BLACK(0x0),
 	    DARK_BLUE(0x1),
 	    DARK_GREEN(0x2),
 	    DARK_AQUA(0x3),
@@ -44,3 +46,4 @@ public enum Color
         }
     }
 }
+*/
