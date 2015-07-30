@@ -14,12 +14,12 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-//Recommended for: CraftBukkit 1.8.* Can be used for: Spigot 1.8.6
+//Recommended for: CraftBukkit 1.8.6 Can be used for: Spigot 1.8.6 and higher
 public class Main extends JavaPlugin
 {
 	public static final String iBukkitVersion = "3";
 	public static final String buildNumber = "0";
-	public static final String SpigotVersion = "1.8.6" + "1.8.7";
+	public static final String SpigotVersion = "1.8.6" + "1.8.7" + "1.8.8";
 	public static final String spigot = "Spigot-1.8.6+";
 	public static final String pluginfile = "plugin.yml";
 	public final Logger log = Logger.getLogger("Minecraft-Server");
