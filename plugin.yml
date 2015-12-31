@@ -1,5 +1,5 @@
 name: iBukkit
-version: Cherry
+version: Cherry 3.0
 description: The new Util project
 #Cherry is the name of the version kind of like andriods system ex. Android Lollipop
 author: buildcarter8
@@ -8,3 +8,5 @@ commands:
  ibukkit:
     description: plugin info
     aliases: ib
+ ip:
+  description: ip address
