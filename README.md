@@ -7,3 +7,9 @@ This plugin was recontinued by Minedevelop/BabyBreezy(breezydev) on December 31s
 ![iBukkit-PATCH](https://cloud.githubusercontent.com/assets/3821639/8917037/a894bb0a-347d-11e5-83e5-6ef910c8576b.jpg)
 
 IBukkit patched is a patched release of iBukkit and fixes issues within that release
+
+# iBukkit Original (Buildcarter8 version) (Discontinued) 
+
+Download them ![here](https://github.com/buildcarter8/iBukkit/releases)
+
+WARNING: Old Ibukkit versions may not support the latest version of the plugin so check the devs requirement
