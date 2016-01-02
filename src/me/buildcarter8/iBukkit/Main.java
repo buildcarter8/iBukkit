@@ -32,7 +32,7 @@ public class Main extends JavaPlugin
     public void onLoad() {
     	log.info("Loading iBukkit...");
     	log.info("Created by buildcarter8...");
-    	log.info("Recreated by Minedevelop ORG. Dec. 31. 2015")
+    	log.info("Recreated by Minedevelop ORG. Dec. 31. 2015");
     	log.info("Loading iBukkit Utils...");
     
     }
