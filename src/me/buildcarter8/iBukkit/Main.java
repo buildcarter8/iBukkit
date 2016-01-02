@@ -18,11 +18,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin
 {
 	public static final String iBukkitVersion = "3";
-	public static final String buildNumber = "0";
-	public static final String SpigotVersion = "1.8.6" + "1.8.7" + "1.8.8";
+	public static final String buildNumber = "1";
+	public static final String SpigotVersion = "1.8.6" + "1.8.7" + "1.8.8" + "1.8.9";
 	public static final String spigot = "Spigot-1.8.6+";
 	public static final String pluginfile = "plugin.yml";
-	public final Logger log = Logger.getLogger("Minecraft-Server");
+	public final Logger log = Logger.getLogger("Spigot-Server");
 	public static Main plugin;
 	@Override
 	public void onDisable() {
@@ -32,6 +32,7 @@ public class Main extends JavaPlugin
     public void onLoad() {
     	log.info("Loading iBukkit...");
     	log.info("Created by buildcarter8...");
+    	log.info("Recreated by Minedevelop ORG. Dec. 31. 2015")
     	log.info("Loading iBukkit Utils...");
     
     }
