@@ -38,5 +38,5 @@ public class Messages
   
 
   //Error messages
-  public static String error = ChatColor.RED + "[iBukkit] Oops! there seems to be an error with that please contact the developer of the plugin with the command used";
+  public static String error = ChatColor.RED + "[iBukkit] Oops! there seems to be an error with that please contact the developer of the plugin with the command used (Ibukkit is not responcible for this issue only contact dev of plugin)";
 }
