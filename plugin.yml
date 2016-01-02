@@ -8,5 +8,5 @@ commands:
  ibukkit:
     description: plugin info
     aliases: ib
- ip:
-  description: ip address
+ getip:
+    description: ip address
