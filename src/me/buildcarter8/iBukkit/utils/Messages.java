@@ -8,7 +8,8 @@ import org.bukkit.Color;
 //import org.bukkit.command.CommandSender;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
+//Copyright (c) 2011-2016, Steven Lawson
+//Copyright (c) 2012-2016, Jerom van der Sar
 //This util refers to message sending and broadcasting from a plugin made easier
 public class Messages 
 {
