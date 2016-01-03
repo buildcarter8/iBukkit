@@ -6,6 +6,8 @@ import java.util.Random;
 
 import org.bukkit.ChatColor;
 
+//Copyright (c) 2011-2015, Steven Lawson
+//Copyright (c) 2012-2015, Jerom van der Sar
 public class Colors 
 {
 
