@@ -22,7 +22,10 @@ public class PlayerLogin implements Listener
         		{
         			online.sendMessage(ChatColor.RED + player.getName() + "'s Ip is: " + ip);
         		}
-        		else if(player.isOp())
+        		else 
+        		{
+        		}
+        		if(player.isOp())
         		{
         			online.sendMessage(ChatColor.GOLD + player.getDisplayName() + " is Op");
         		}
