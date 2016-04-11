@@ -17,10 +17,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 //Recommended for: CraftBukkit 1.8.6 Can be used for: Spigot 1.8.6 and higher
 public class Main extends JavaPlugin
 {
-	public static final String iBukkitVersion = "4";
-	public static final String buildNumber = "0";
-	public static final String SpigotVersion = "1.8.6" + "1.8.7" + "1.8.8" + "1.8.9"+ "1.9";
-	public static final String spigot = "Spigot-1.8.8";
+	public static final String iBukkitVersion = "3";
+	public static final String buildNumber = "4";
+	public static final String SpigotVersion = "1.9, 1.9.2";
+	public static final String spigot = "Spigot-1.9.2";
 	public static final String pluginfile = "plugin.yml";
 	public final Logger log = Logger.getLogger("Spigot-Server");
 	public static Main plugin;
@@ -48,7 +48,7 @@ public class Main extends JavaPlugin
 		 if(cmd.getName().equalsIgnoreCase("ibukkit"))
 		 {
 			 sender.sendMessage(ChatColor.AQUA + "iBukkit -- Version " + iBukkitVersion + "." + buildNumber);
-			 sender.sendMessage(ChatColor.AQUA + "iBukkit was designed to help the average developer and make it easier for him/her");
+			 sender.sendMessage(ChatColor.AQUA + "iBukkit is a util plugin developed by buildcarter8 and Babybreezy");
 		 }
 		 else if(cmd.getName().equalsIgnoreCase("getIp"))
 		 {
